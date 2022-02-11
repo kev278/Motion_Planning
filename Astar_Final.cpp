@@ -10,7 +10,6 @@ class Node
     int col;
     //Here the dist is 1 since it is not a weighted grid
     //If we have unequal weights, we can add those while making a new node
-    //For this assignment, 1 is assumed since it was mentioned in the Readme file
     int dist;
     int cost;
     int heuristic;
