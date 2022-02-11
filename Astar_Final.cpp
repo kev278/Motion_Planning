@@ -38,8 +38,6 @@ class Explore
         return heuristic;
     }
 
-    //To learn more about datastructures
-    //a priority queue was implemented instead of using the stl container
     //The role of this function is to find the cell to be explored
     //based on the costs of the cells
     Node* sort_node(queue<Node*> &node)
