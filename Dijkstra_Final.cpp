@@ -69,8 +69,6 @@ class Explore
         return parent;
     }
 
-    //To learn more about datastructures
-    //a priority queue was implemented instead of using the stl container
     //The role of this function is to find the cell to be explored
     //based on the costs of the cells
     pair<pair<int, int>, int> Sort(queue<pair<pair<int, int>, int>> &explore)
@@ -154,10 +152,6 @@ class Explore
                         pair<pair<int, int>, int> coords_pair = Sort(explore);
                         pair<int, int> coords = coords_pair.first;
                         parent = sort_node(node);
-                        //Pop a cell to explore the neighbors
-                        //explore.pop();
-                        //node.pop();
-                        //Explore neighbors in all directions
                         for(pair<int, int> dir : directions)
                         {
                             //Get row and col
